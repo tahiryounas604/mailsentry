@@ -1,0 +1,3 @@
+provider,mailbox,rule_id,rule_name,kind,enabled,hidden,is_sweep,condition_keywords,forward_to,redirect_to,bcc_to,delete,mark_as_read,move_to_folder,skip_inbox,account_forwarding_address,prior_relationship_domains
+google,ivan@example.com,c-b1,Receipts to folder,rule,true,false,false,receipt,,,,false,false,Receipts,false,,example.com
+microsoft,judy@example.com,c-b2,Team copy,rule,true,false,false,standup,,,team@example.com,false,false,,false,,example.com

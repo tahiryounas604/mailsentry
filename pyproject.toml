@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mailsentry"
+version = "0.1.0"
+description = "Self-hosted auditor for hidden email forwarding / inbox-rule exfiltration (MITRE ATT&CK T1114.003) — offline import first"
+readme = "README.md"
+license = { text = "GPL-3.0-only" }
+requires-python = ">=3.11"
+authors = [{ name = "Tahir Younas — Tytechlabs" }]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+live = []
+
+[project.scripts]
+mailsentry = "mailsentry.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mailsentry*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,4 @@
+provider,mailbox,rule_id,rule_name,kind,enabled,hidden,is_sweep,condition_keywords,forward_to,redirect_to,bcc_to,delete,mark_as_read,move_to_folder,skip_inbox,account_forwarding_address,prior_relationship_domains
+microsoft,frank@example.com,c-r1,Wire watcher,rule,true,false,false,wire transfer invoice,,,spy@outside-spy.com,true,false,,false,,example.com
+google,grace@example.com,c-r2,All mail out,rule,true,false,false,,grace.copy@protonmail.com,,,false,false,,false,,
+microsoft,heidi@example.com,c-a1,SMTP forwarding setting,account_forwarding,true,false,false,,,,,false,false,,false,heidi@outside-heidi.net,
